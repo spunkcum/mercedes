@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-	<head>
+<head>
 	<meta charset="utf-8">
 	<title></title>
 	<meta name="description" content="">
@@ -13,45 +13,45 @@
 	<!-- build:css(.tmp) styles/main.css -->
 	<link rel="stylesheet" href="styles/main.css">
 	<!-- endbuild -->
-	</head>
-	<body ng-app="mercedesApp" ng-controller="MainController">
+</head>
+<body ng-app="mercedesApp" ng-controller="MainController">
 		<!--[if lte IE 8]>
 		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-		<![endif]-->
+	<![endif]-->
 
-		<!-- Add your site or application content here -->
-		<div class="header" style="background-image: url('images/topImage.jpg'); height: 200px;">
-			
-		</div>
+	<!-- Add your site or application content here -->
+	<div class="header" style="background-image: url('images/topImage.jpg'); height: 200px;">
+		
+	</div>
 
-		<div class="container">
-			<div class="col-md-2 no-padding">
-				<ul class="nav">
-					<li>
-						<a href="#!/forside" ng-click="selectPage('forside');" ng-class="{selected : page == 'forside'}">
-							Forside
-						</a>
-					</li>
-					<li>
-						<a href="#!/program" ng-click="selectPage('program');" ng-class="{selected : page == 'program'}">
-							Programside
-						</a>
-					</li>
-					<li>
-						<a href="#!/information" ng-click="selectPage('information');" ng-class="{selected : page == 'information'}">
-							Information
-						</a>
-					</li>
-					<li>
-						<a href="#!/oversigt" ng-click="selectPage('oversigt');" ng-class="{selected : page == 'oversigt'}">
-							Oversigt
-						</a>
-					</li>
-					<li>
-						<a href="#!/faq" ng-click="selectPage('faq');" ng-class="{selected : page == 'faq'}">
-							FAQ
-						</a>
-					</li>
+	<div class="container">
+		<div class="col-md-2 no-padding">
+			<ul class="nav">
+				<li>
+					<a href="#!/forside" ng-click="selectPage('forside');" ng-class="{selected : page == 'forside'}">
+						Forside
+					</a>
+				</li>
+				<li>
+					<a href="#!/program" ng-click="selectPage('program');" ng-class="{selected : page == 'program'}">
+						Programside
+					</a>
+				</li>
+				<li>
+					<a href="#!/information" ng-click="selectPage('information');" ng-class="{selected : page == 'information'}">
+						Information
+					</a>
+				</li>
+				<li>
+					<a href="#!/oversigt" ng-click="selectPage('oversigt');" ng-class="{selected : page == 'oversigt'}">
+						Oversigt
+					</a>
+				</li>
+				<li>
+					<a href="#!/faq" ng-click="selectPage('faq');" ng-class="{selected : page == 'faq'}">
+						FAQ
+					</a>
+				</li>
 					<!-- 
 						Skal først bruges efter første event
 					<li>
@@ -62,7 +62,7 @@
 				</ul>
 			</div>
 
-			<div class="col-md-10 no-padding" ng-view>
+			<div class="col-md-8 no-padding" ng-view>
 
 			</div>
 		</div>
@@ -95,4 +95,4 @@
 		<script src="scripts/controllers/faq.js"></script>
 		<!-- endbuild -->
 	</body>
-</html>
+	</html>
