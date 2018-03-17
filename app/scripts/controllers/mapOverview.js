@@ -7,7 +7,7 @@
  * # MainCtrl
  * Controller of the mercedesApp
  */
- angular.module('mercedesApp.homePage', [])
+ angular.module('mercedesApp.mapOverview', [])
  .controller('MapOverviewPageController', [MapOverviewPageController]);
 
  function MapOverviewPageController(){

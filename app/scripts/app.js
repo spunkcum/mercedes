@@ -11,6 +11,10 @@
 angular
 .module('mercedesApp', [
 	'mercedesApp.homePage',
+	'mercedesApp.program',
+	'mercedesApp.praticalInformation',
+	'mercedesApp.mapOverview',
+	'mercedesApp.faq',
 
 	'ngAnimate',
 	'ngAria',
@@ -21,39 +25,48 @@ angular
 	'ngSanitize',
 	'ngTouch'
 ])
+.controller('MainController', ['$rootScope', '$scope', MainController])
 .config(function ($routeProvider) {
 	$routeProvider
-	.when('/ejnerhessel', {
+	.when('/forside', {
 		templateUrl: 'views/main.html',
 		controller: 'HomePageController',
 		controllerAs: 'homePage'
 	})
-	/*.when('/pchristensen', {
+	.when('/program', {
+		templateUrl: 'views/program.html',
+		controller: 'ProgramPageController',
+		controllerAs: 'program'
+	})
+	.when('/information', {
+		templateUrl: 'views/practicalInformation.html',
+		controller: 'PracticalInformationPageController',
+		controllerAs: 'information'
+	})
+	.when('/oversigt', {
+		templateUrl: 'views/mapOverview.html',
+		controller: 'MapOverviewPageController',
+		controllerAs: 'overview'
+	})
+	.when('/faq', {
+		templateUrl: 'views/faq.html',
+		controller: 'FaqPageController',
+		controllerAs: 'main'
+	})
+	.when('/galleri', {
 		templateUrl: 'views/main.html',
 		controller: 'MainCtrl',
 		controllerAs: 'main'
 	})
-	.when('/bentpedersen', {
-		templateUrl: 'views/main.html',
-		controller: 'MainCtrl',
-		controllerAs: 'main'
-	})
-	.when('/mercedesbenzcph', {
-		templateUrl: 'views/main.html',
-		controller: 'MainCtrl',
-		controllerAs: 'main'
-	})
-	.when('/mercedesbenzdanmark', {
-		templateUrl: 'views/main.html',
-		controller: 'MainCtrl',
-		controllerAs: 'main'
-	})
-	.when('/viborgautogaard', {
-		templateUrl: 'views/main.html',
-		controller: 'MainCtrl',
-		controllerAs: 'main'
-	})*/
 	.otherwise({
-		redirectTo: '/ejnerhessel'
+		redirectTo: '/forside'
 	});
 });
+
+function MainController($rootScope, $scope){
+	$scope.page = "forside";
+
+	$scope.selectPage = function(page){
+		$scope.page = page;
+	};
+}
