@@ -7,11 +7,9 @@
  * # MainCtrl
  * Controller of the mercedesApp
  */
-angular.module('mercedesApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+angular.module('mercedesApp.homePage', [])
+	.controller('HomePageController', [HomePageController]);
+
+function HomePageController(){
+	
+}
