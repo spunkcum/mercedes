@@ -11,5 +11,5 @@ angular.module('mercedesApp.homePage', [])
 	.controller('HomePageController', [HomePageController]);
 
 function HomePageController(){
-	
+
 }
