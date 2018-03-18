@@ -20,52 +20,52 @@
 	<![endif]-->
 
 	<!-- Add your site or application content here -->
-	<div class="header" style="background-image: url('images/topImage.jpg'); height: 200px;">
+	<div class="header" style="background-image: url('images/topImage.jpg'); height: 200px; margin-bottom: 0px;">
 
 	</div>
 
-	<div class="container-fluid">
-		<div class="col-md-2 no-padding">
-			<ul class="nav">
-				<li>
-					<a href="#!/forside" ng-click="selectPage('forside');" ng-class="{selected : page == 'forside'}">
-						Forside
-					</a>
-				</li>
-				<li>
-					<a href="#!/program" ng-click="selectPage('program');" ng-class="{selected : page == 'program'}">
-						Programside
-					</a>
-				</li>
-				<li>
-					<a href="#!/information" ng-click="selectPage('information');" ng-class="{selected : page == 'information'}">
-						Information
-					</a>
-				</li>
-				<li>
-					<a href="#!/oversigt" ng-click="selectPage('oversigt');" ng-class="{selected : page == 'oversigt'}">
-						Oversigt
-					</a>
-				</li>
-				<li>
-					<a href="#!/faq" ng-click="selectPage('faq');" ng-class="{selected : page == 'faq'}">
-						FAQ
-					</a>
-				</li>
-					<!-- 
-						Skal først bruges efter første event
-					<li>
-						<a href="#!/galleri" ng-click="selectPage('galleri');" ng-class="{selected : page == 'galleri'}">
-							Galleri
-						</a>
-					</li> -->
-				</ul>
-			</div>
+	<div class="row navbar">
+		<ul class="nav">
+			<li>
+				<a href="#!/forside" ng-click="selectPage('forside');" ng-class="{selected : page == 'forside'}">
+					Forside
+				</a>
+			</li>
+			<li>
+				<a href="#!/program" ng-click="selectPage('program');" ng-class="{selected : page == 'program'}">
+					Programside
+				</a>
+			</li>
+			<li>
+				<a href="#!/information" ng-click="selectPage('information');" ng-class="{selected : page == 'information'}">
+					Information
+				</a>
+			</li>
+			<li>
+				<a href="#!/oversigt" ng-click="selectPage('oversigt');" ng-class="{selected : page == 'oversigt'}">
+					Oversigt
+				</a>
+			</li>
+			<li>
+				<a href="#!/faq" ng-click="selectPage('faq');" ng-class="{selected : page == 'faq'}">
+					FAQ
+				</a>
+			</li>
+			<!-- 
+				Skal først bruges efter første event
+			<li>
+				<a href="#!/galleri" ng-click="selectPage('galleri');" ng-class="{selected : page == 'galleri'}">
+					Galleri
+				</a>
+			</li> -->
+		</ul>
+	</div>
 
-			<div class="col-md-8 no-padding" ng-view>
+	<div class="container content">
+		<div class="col-md-12 no-padding" ng-view>
 
-			</div>
 		</div>
+	</div>
 
 		<div class="footer" style="background-image: url('images/topImage.jpg'); height: 200px;">
 		</div>
