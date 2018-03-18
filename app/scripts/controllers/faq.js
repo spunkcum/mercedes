@@ -11,5 +11,5 @@
  .controller('FaqPageController', [FaqPageController]);
 
  function FaqPageController(){
-
+ 	document.title = "FAQ";
  }

@@ -11,5 +11,5 @@
  .controller('MapOverviewPageController', [MapOverviewPageController]);
 
  function MapOverviewPageController(){
-
+ 	document.title = "Oversigt";
  }

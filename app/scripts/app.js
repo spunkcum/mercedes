@@ -64,6 +64,7 @@ angular
 });
 
 function MainController($rootScope, $scope){
+	document.title = "Forside";
 	$scope.page = "forside";
 
 	$scope.selectPage = function(page){
