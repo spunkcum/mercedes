@@ -7,9 +7,9 @@
  * # MainCtrl
  * Controller of the mercedesApp
  */
-angular.module('mercedesApp.homePage', [])
-	.controller('HomePageController', [HomePageController]);
+ angular.module('mercedesApp.homePage', [])
+ .controller('HomePageController', [HomePageController]);
 
-function HomePageController(){
-
-}
+ function HomePageController(){
+ 	document.title = "Forside";
+ }
