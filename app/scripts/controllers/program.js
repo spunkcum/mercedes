@@ -11,5 +11,5 @@
  .controller('ProgramPageController', [ProgramPageController]);
 
  function ProgramPageController(){
-
+ 	document.title = "Program";
  }
