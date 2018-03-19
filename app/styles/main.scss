@@ -195,7 +195,7 @@ border-top: unset;
 
 h1, h2, h3 {
 font-family: cacregular;
-font-weight: bold;
+//font-weight: bold;
 }
 
 p {
@@ -203,6 +203,10 @@ font-family: csregular;
 }
 
 @media (max-width: 425px) {
+	h1 {
+		font-weight: unset;
+	}
+
 	ul.nav {
 		display: grid;
 	}
