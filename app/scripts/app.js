@@ -38,7 +38,7 @@ angular
 		controller: 'ProgramPageController',
 		controllerAs: 'program'
 	})
-	.when('/information', {
+	.when('/info', {
 		templateUrl: 'views/practicalInformation.html',
 		controller: 'PracticalInformationPageController',
 		controllerAs: 'information'
