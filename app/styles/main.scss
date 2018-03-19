@@ -201,3 +201,13 @@ font-weight: bold;
 p {
 font-family: csregular;
 }
+
+@media (max-width: 425px) {
+	ul.nav {
+		display: grid;
+	}
+
+	.mobileTopMargin {
+		margin-top: 30px;
+	}
+}
