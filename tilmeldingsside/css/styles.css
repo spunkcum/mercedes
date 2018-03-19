@@ -13,12 +13,20 @@ body {
 	background: linear-gradient(180deg,#262626,#171717 280px);
 	/*background-color:#000000;*/
 }
+
 p {
 	font-family: "csregular";
+	font-size: 18px;
 }
+
+a {
+	color: #00adef;
+}
+
 p, h1, h2, h3 {
 	color: #ffffff;
 }
+
 h1, h2, h3 {
 	font-family: cacregular;
 	font-weight: bold;
@@ -60,5 +68,5 @@ hr {
 	padding: 0;
 }
 .topPadding {
-	margin-top: 30px;
+	margin-top: 25px;
 }
