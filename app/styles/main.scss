@@ -40,9 +40,9 @@ h1 {
 
 h2 {
 	color : #fff;
-	/*font-family: cacregular,Helvetica,Arial,sans-serif';*/
-	margin-bottom: 0px;
-	margin-top: 0px;
+/*font-family: cacregular,Helvetica,Arial,sans-serif';*/
+margin-bottom: 0px;
+margin-top: 0px;
 }
 
 a {
@@ -73,13 +73,13 @@ a {
 	border-bottom: 1px solid #e5e5e5;
 	margin-bottom: 10px;
 
-	/* Make the masthead heading the same height as the navigation */
-	h3 {
-		margin-top: 0;
-		margin-bottom: 0;
-		line-height: 40px;
-		padding-bottom: 19px;
-	}
+/* Make the masthead heading the same height as the navigation */
+h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 40px;
+	padding-bottom: 19px;
+}
 }
 
 /**
@@ -98,10 +98,10 @@ ul.nav{
 	margin: 0; 
 	padding: 10px 0;
 	list-style-type: none;
-	//background-color: #fff;
-	display: flex;
-	text-align: center;
-	width: 100%;
+//background-color: #fff;
+display: flex;
+text-align: center;
+width: 100%;
 }
 
 .selected {
@@ -133,7 +133,7 @@ ul.nav li a{
 	font-size: 30px;
 	color: #fff;
 	display: inline-block;
-	font-family: csregular;
+	font-family: cacregular;
 }
 
 ul.nav li.selected a{
@@ -192,13 +192,13 @@ Footer
 
 h1, h2, h3 {
 	font-family: cacregular;
-	//font-weight: bold;
+//font-weight: bold;
 }
 
 p {
 	font-family: csregular;
 	color : #ffffff;
-	font-size : 14px;
+	font-size : 18px;
 }
 
 @media (max-width: 767px) {
