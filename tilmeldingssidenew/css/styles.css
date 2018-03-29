@@ -16,12 +16,15 @@ body {
 
 p {
 	font-family: "csregular";
-	font-size: 18px;
+	font-size: 20px;
 	margin-bottom: 0px;
 }
 
 a {
-	color: #00adef;
+	font-size: 20px;
+	font-family: "csregular";
+	/*color: #00adef;*/
+	color: #CB3735;
 }
 
 a:hover {
@@ -75,8 +78,4 @@ hr {
 }
 .topPadding {
 	margin-top: 25px;
-}
-
-.wufooFormContainer {
-	border: 1px solid black;
 }
