@@ -105,17 +105,22 @@
 			<script type="text/javascript">
 				var url = document.URL;
 				var params = url.split("?");
-				params = params[1].split("&");
 				
-				var newParams = "";
+				if(params[1] != undefined){
+					params = params[1].split("&");
 
-				for(var i = 0; i < params.length; i++){
-					newParams += "Field" + (i + 1).toString() + "=" + params[i].split('=')[1];
+					var newParams = "";
 
-					if(i < (params.length - 1)){
-						newParams += "&";
-					}					
+					for(var i = 0; i < params.length; i++){
+						newParams += "Field" + (i + 1).toString() + "=" + params[i].split('=')[1];
+
+						if(i < (params.length - 1)){
+							newParams += "&";
+						}					
+					}
 				}
+				
+				
 
 				var w1k1yjd20y85e69;
 				(function(d, t) {
@@ -133,7 +138,7 @@
 					
 					s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.eu/scripts/embed/form.js';
 					s.onload = s.onreadystatechange = function() {
-					
+
 						var rs = this.readyState; 
 						
 						if (rs) if (rs != 'complete') if (rs != 'loaded') 
@@ -142,51 +147,51 @@
 							w1k1yjd20y85e69 = new WufooForm();w1k1yjd20y85e69.initialize(options);w1k1yjd20y85e69.display(); 
 						} catch (e) {
 
-							}
-						};
-						
-						var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-					})(document, 'script');
-				</script>
-			</div>
+						}
+					};
 
-			<div class="row">
-				<a href="http://www.mercedes-benz-sprinter.dk/craa/" target="_blank">
-					Læs mere om arrangementet
-				</a>
-			</div>
-
-			<div class="row topPadding">
-				<p>
-					<h2>
-						Persondata. UNIK
-					</h2>
-				</p>
-				
-				<hr>
-			</div>
-			
-			<div class="row">
-				<p>
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-				</p>
-			</div>
+					var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+				})(document, 'script');
+			</script>
 		</div>
 
-		<div class="footer">
+		<div class="row">
+			<a href="http://www.mercedes-benz-sprinter.dk/craa/" target="_blank">
+				Læs mere om arrangementet
+			</a>
+		</div>
+
+		<div class="row topPadding">
+			<p>
+				<h2>
+					Persondata. UNIK
+				</h2>
+			</p>
+
+			<hr>
+		</div>
+
+		<div class="row">
+			<p>
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+			</p>
 		</div>
 	</div>
 
-	<div class="container-fluid">
-		<div class="row justify-content-center banner footer">
-			
-		</div>
+	<div class="footer">
 	</div>
+</div>
 
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<div class="container-fluid">
+	<div class="row justify-content-center banner footer">
+
+	</div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
