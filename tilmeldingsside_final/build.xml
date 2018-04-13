@@ -26,7 +26,7 @@
 		<sequential>
 			<echo>Copying to target @{target}...</echo>
 
-			<copy todir="dist/@{target}/styles">  
+			<copy todir="dist/@{target}/styles"	>  
 				<fileset dir="styles"/>
 			</copy> 
 			<copy todir="dist/@{target}/images">  
@@ -35,7 +35,10 @@
 
 			<copy file="index.php" tofile="dist/@{target}/index.php"/>
 			<copy file="favicon.ico" tofile="dist/@{target}/favicon.ico"/>
-			<copy file="defaultvalues/@{target}/defaultvalues.php" tofile="dist/@{target}/defaultvalues.php"/>
+			
+			<copy todir="dist/@{target}" overwrite="true">
+				<fileset dir="defaultvalues/@{target}"/>
+			</copy>
 
 
 		</sequential>
