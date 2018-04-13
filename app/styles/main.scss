@@ -13,6 +13,16 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 	src: url('fonts/DaimlerCACArab-Regular.ttf');
 }
 
+@font-face {
+	font-family: "Electronic Highway Sign";
+	src:url("fonts/EHSMB.eot?") format("eot"),
+	url("fonts/EHSMB.woff") format("woff"),
+	url("fonts/EHSMB.TTF") format("truetype"),
+	url("fonts/EHSMB.svg#ElectronicHighwaySign") 
+	format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
 .browsehappy {
 	margin: 0.2em 0;
 	background: #ccc;
