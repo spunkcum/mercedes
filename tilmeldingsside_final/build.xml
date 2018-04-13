@@ -1,0 +1,44 @@
+<?xml version = "1.0"?>
+<project name = "Mercedes-Benz - CRAA" default = "info">
+	<target name = "info">
+		<echo>Build file for CRAA sites</echo>
+	</target>
+
+	<target name = "build" depends="clean">
+		<echo>Building...</echo>
+
+		<copyToTarget target="ejnerhessel"/>
+		<copyToTarget target="pchristensen"/>
+		<copyToTarget target="bentpedersen"/>
+		<copyToTarget target="lemvig"/>
+		<copyToTarget target="mbcph"/>
+		<copyToTarget target="mbdanmark"/>
+
+	</target>
+
+	<target name = "clean">
+		<echo>Cleaning...</echo>
+		<delete dir="dist"/>
+	</target>
+
+	<macrodef name="copyToTarget">
+		<attribute name="target"/>
+		<sequential>
+			<echo>Copying to target @{target}...</echo>
+
+			<copy todir="dist/@{target}/styles">  
+				<fileset dir="styles"/>
+			</copy> 
+			<copy todir="dist/@{target}/images">  
+				<fileset dir="images"/>
+			</copy> 
+
+			<copy file="index.php" tofile="dist/@{target}/index.php"/>
+			<copy file="favicon.ico" tofile="dist/@{target}/favicon.ico"/>
+			<copy file="defaultvalues/@{target}/defaultvalues.php" tofile="dist/@{target}/defaultvalues.php"/>
+
+
+		</sequential>
+	</macrodef>
+
+</project>
