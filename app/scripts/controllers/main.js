@@ -12,4 +12,5 @@
 
  function HomePageController(){
  	document.title = "Mercedes-Benz Classic Car Race - Forside";
+ 	document.getElementById("pageHeader").style.display = "none";
  }
