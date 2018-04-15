@@ -43,8 +43,8 @@
           <div class="col">
             <h1>VIP-invitation.</h1>
             <p>Vær med, når vi lancerer den ny Sprinter. For første gang i Danmark. Vi byder dig velkommen i vores VIP-loungeområde på Classic Race Aarhus 2018.</p>
-            <p>Lørdag d. 26. maj og søndag d. 27. maj.</p>
-            <p>Du tilmelder dig via formularen her på siden.</p>
+            <p>Enten lørdag d. 26. maj eller søndag d. 27. maj.</p>
+            <p>Du tilmelder dig via formularen her på siden. Med din tilmelding får du en dagsbillet til både Classic Race Aarhus og Mercedes-Benz VIP-lounge.</p>
 
             <img src="images/dashboard.png" class="img-fluid dashboardImage">
 
@@ -58,7 +58,7 @@
             <p>Vores VIP-lounge er placeret centralt i løbsområdet. Herfra har du eksklusiv adgang til vores egen tribune med direkte udsyn til opløbssiden.</p>
 
             <h3>Ta' børnene med.</h3>
-            <p>Har du børn med, så har vi også sørget for dem i et festligt aktivitetsområde, hvor de kan lege og hygge i trygge rammer.</p>
+            <p>Har du børn med, så har vi også sørget for et hyggeligt aktivitetsområde, hvor de kan lege dagen igennem. </p>
 
             <h3>Få det, som du vil ha’ det.</h3>
             <p>Sammensæt din dag, som du vil, og du bestemmer selv, om du vil være med lørdag (26/5) eller søndag (27/5).</p>
@@ -91,8 +91,8 @@
                 })(document, 'script');
               </script>
 
-              <p><a href="#" target="_blank">Læs en uddybning af betingelserne for tilmelding her.</a></p>
-              <p><a href="https://mercedes-benz-sprinter.dk/craa" target="_blank">Læs mere om arrangement her.</a></p>
+              <p><a href="betingelser.pdf" target="_blank">Læs en uddybning af betingelserne for tilmelding her.</a></p>
+              <p><a href="https://mercedes-benz-sprinter.dk/craa" target="_blank">Læs mere om arrangementet her.</a></p>
 
             </div>
           </div>
