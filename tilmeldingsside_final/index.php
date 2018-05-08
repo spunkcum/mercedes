@@ -53,7 +53,13 @@
             <p>Enten lørdag d. 26. maj eller søndag d. 27. maj.</p>
             <p>Du tilmelder dig via formularen her på siden. Med din tilmelding får du en dagsbillet til både Classic Race Aarhus og Mercedes-Benz VIP-lounge.</p>
 
-            <img src="images/dashboard.png" class="img-fluid dashboardImage">
+            
+            <!-- <img src="images/dashboard.png" class="img-fluid dashboardImage"> -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/268623836" width="640" height="360" frameborder="0" allowfullscreen>
+              </iframe>
+            </div>
+            
 
             <h2>Kom til Danmarkspremiere på den ny Sprinter.</h2>
             <p>Velkommen i vores VIP-loungeområde på Classic Race Aarhus 2018. Her får du en ekstraordinær mulighed for at opleve den ny Sprinter.</p>
