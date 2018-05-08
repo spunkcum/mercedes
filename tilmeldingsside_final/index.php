@@ -61,7 +61,7 @@
             </div>
             
 
-            <h2>Kom til Danmarkspremiere på den ny Sprinter.</h2>
+            <h2 class="mt-3">Kom til Danmarkspremiere på den ny Sprinter.</h2>
             <p>Velkommen i vores VIP-loungeområde på Classic Race Aarhus 2018. Her får du en ekstraordinær mulighed for at opleve den ny Sprinter.</p>
 
             <h3>Besøg vores VIP-lounge.</h3>
