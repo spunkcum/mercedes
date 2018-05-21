@@ -12,4 +12,5 @@
 
  function MapOverviewPageController(){
  	document.title = "Oversigt";
+ 	document.getElementById("pageHeader").style.display = "none";
  }

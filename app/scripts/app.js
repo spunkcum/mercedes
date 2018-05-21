@@ -25,7 +25,7 @@ angular
 	'ngSanitize',
 	'ngTouch',
 	'angular-google-analytics'
-])
+	])
 .controller('MainController', ['$rootScope', '$scope', MainController])
 
 .config(['AnalyticsProvider', function (AnalyticsProvider) {
@@ -80,17 +80,15 @@ function MainController($rootScope, $scope){
 
 	var url = document.URL.split("#!");
 
-	if(url[(url.length - 1)].includes("forside")){
+	var urlPath = url[(url.length - 1)];
+
+	if(urlPath.indexOf("forside") != -1){
 		$scope.page = "forside";
-	}else if(url[(url.length - 1)].includes("program")){
+	} else if (urlPath.indexOf("program") != -1){
 		$scope.page = "program";
-	}else if(url[(url.length - 1)].includes("info")){
-		$scope.page = "info";
-	}else if(url[(url.length - 1)].includes("oversigt")){
+	} else if (urlPath.indexOf("info") != -1){
+		$scope.page = "information";
+	} else if (urlPath.indexOf("oversigt") != -1){
 		$scope.page = "oversigt";
-	}else if(url[(url.length - 1)].includes("faq")){
-		$scope.page = "faq";
-	}else if(url[(url.length - 1)].includes("galleri")){
-		$scope.page = "galleri";
 	}
 }
