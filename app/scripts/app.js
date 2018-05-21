@@ -77,4 +77,20 @@ function MainController($rootScope, $scope){
 	$scope.selectPage = function(page){
 		$scope.page = page;
 	};
+
+	var url = document.URL.split("#!");
+
+	if(url[(url.length - 1)].includes("forside")){
+		$scope.page = "forside";
+	}else if(url[(url.length - 1)].includes("program")){
+		$scope.page = "program";
+	}else if(url[(url.length - 1)].includes("info")){
+		$scope.page = "info";
+	}else if(url[(url.length - 1)].includes("oversigt")){
+		$scope.page = "oversigt";
+	}else if(url[(url.length - 1)].includes("faq")){
+		$scope.page = "faq";
+	}else if(url[(url.length - 1)].includes("galleri")){
+		$scope.page = "galleri";
+	}
 }
