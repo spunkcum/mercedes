@@ -1,1 +1,0 @@
-field6=Bent Pedersen AS
