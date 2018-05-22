@@ -11,5 +11,7 @@
  .controller('MapOverviewPageController', [MapOverviewPageController]);
 
  function MapOverviewPageController(){
- 	document.title = "Oversigt";
+ 	document.title = "Mercedes-Benz Classic Car Race - Oversigt";
+ 	document.getElementById("pageHeader").innerHTML = "Program.";
+ 	document.getElementById("pageHeader").style.display = "block";
  }
