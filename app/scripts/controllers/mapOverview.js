@@ -12,6 +12,6 @@
 
  function MapOverviewPageController(){
  	document.title = "Mercedes-Benz Classic Car Race - Oversigt";
- 	document.getElementById("pageHeader").innerHTML = "Oversigts Kort.";
+ 	document.getElementById("pageHeader").innerHTML = "Oversigtskort.";
  	document.getElementById("pageHeader").style.display = "block";
  }
