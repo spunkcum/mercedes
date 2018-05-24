@@ -80,57 +80,37 @@
             <p class="pb-2">Til de første 250 tilmeldte vil det være muligt at reserve en parkeringsplads, hvorfra vi tilbyder shuttle bus til hovedindgangen.</p>
 
             <h1 class="pt-5">Tilmeld dig her.</h1>
-            <p>Tilmeld dig hurtigst muligt via formularen nedenfor, da der er et begrænset antal af billetter. Har du ikke mulighed for at deltage, vil vi bede dig melde afbud i formularen – det vil være en stor hjælp.</p>
 
-            <div id="wufoo-w1k1yjd20y85e69" class="wufooContainer">
-              Fill out my <a href="https://dypaang.wufoo.eu/forms/w1k1yjd20y85e69">online form</a>.
-            </div>
-            <script type="text/javascript">var w1k1yjd20y85e69;(function(d, t) {
-              var s = d.createElement(t), options = {
-                'userName':'dypaang',
-                'formHash':'w1k1yjd20y85e69',
-                'autoResize':true,
-                'height':'2940',               
-                'defaultValues':'<?php include 'defaultvalues.php'; ?>',
-                'async':true,
-                'host':'wufoo.eu',
-                'header':'hide',
-                'ssl':true};
-                s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.eu/scripts/embed/form.js';
-                s.onload = s.onreadystatechange = function() {
-                  var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-                  try { w1k1yjd20y85e69 = new WufooForm();w1k1yjd20y85e69.initialize(options);w1k1yjd20y85e69.display(); } catch (e) {}};
-                  var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-                })(document, 'script');
-              </script>
+            <p class="mb-0">Tilmeldingen til lancering af den ny Sprinter er nu lukket.</p>
+            <p class="pb-3">Skulle du have spørgsmål kan du rette henvendelse til <a href="mailto:craa@mercedes-benz-sprinter.dk">craa@mercedes-benz-sprinter.dk</a></p>
 
-              <p><a href="betingelser.pdf" target="_blank">Læs en uddybning af betingelserne for tilmelding her.</a></p>
-              <p><a href="https://mercedes-benz-sprinter.dk/craa" target="_blank">Læs mere om arrangementet her.</a></p>
+            <p><a href="betingelser.pdf" target="_blank">Læs en uddybning af betingelserne for tilmelding her.</a></p>
+            <p><a href="https://mercedes-benz-sprinter.dk/craa" target="_blank">Læs mere om arrangementet her.</a></p>
 
-            </div>
           </div>
+        </div>
 
-          <div class="row pt-4">
-            <div class="col pt-5 text-center">
-              <img src="images/logobund.png"/>
-              <p class="pt-3">Eventen starter om:</p>
-              <p><span id="counter">00;00;00;00</span></p>
-            </div>
+        <div class="row pt-4">
+          <div class="col pt-5 text-center">
+            <img src="images/logobund.png"/>
+            <p class="pt-3">Eventen starter om:</p>
+            <p><span id="counter">00;00;00;00</span></p>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="container">
-    </div>
   </div>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script type="text/javascript">
-    var countDownDate = new Date("May 26, 2018 07:30:00").getTime();
+
+  <div class="container">
+  </div>
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript">
+  var countDownDate = new Date("May 26, 2018 07:30:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
